@@ -28,8 +28,15 @@ public class Tracker {
     public TimeEntry get(int index) {
         try {
             // Some code that might throw an exception
+            // Replace this comment with the actual code
+        } catch (SpecificException e) {
+            // Handle the specific exception, log, or rethrow
+            e.printStackTrace();
+        } catch (AnotherSpecificException e) {
+            // Handle another specific exception
+            e.printStackTrace();
         } catch (Exception e) {
-            // Handle the exception, log, or rethrow
+            // Catching generic Exception should be avoided unless necessary
             e.printStackTrace();
         }
 
